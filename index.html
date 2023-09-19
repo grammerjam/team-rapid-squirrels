@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxOfBoxes{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+    height: 350px;
+    width: 350px;
+    border: solid black 5px;
+    margin: 5px;
+}
+
+@media (max-width: 951px) {
+    .boxOfBoxes{
+            display: flex;
+            flex-direction: column;
+        }
+}
+    </style>
+
+</head>
+<body>
+    <div class="boxOfBoxes">
+        <div class="box box1"></div>
+        <div class="box box1"></div>
+    </div>
+    <div class="boxOfBoxes">
+        <div class="box box2"></div>
+        <div class="box box2"></div>
+    </div>
+    <p>Start Date/Time: 9/19/2023 12:30pm eastern | End Date/Time: 9/19/2023 12:41pm eastern </p>
+</body>
+</html>
