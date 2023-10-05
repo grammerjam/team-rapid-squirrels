@@ -1,8 +1,72 @@
-.btn{
+
+*{
+    font-family: 'ariel', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+/* navigation */
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    margin: 20px 0;
+   
+}
+.logo{
+    background-color: #2ab6d9;
+width: 10px;
+height: 10px;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    color: #9597a5;
+}
+.navItem{
+    list-style: none;
+    text-decoration: none;
+    margin: 2%;
+}
+.navItem>a{
+    text-decoration: none;
+    color: #2d314d ;
     opacity: .5;
-    color: rgb(255, 255, 255);
-    background-color: #33d35e;
 }
-.btn:hover{
-    opacity: .9;
+.navItem>a:hover{
+    opacity: 1;
 }
+.btn {
+    background: #33d35e;
+    background-image: linear-gradient( #33d35e, #2ab6d9);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 20px;
+    text-decoration: none;
+    opacity: .5;
+    border: 0;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+/* call to action */
+.action{
+   
+    margin:20px 0;
+    display: flex;
+    padding: 15px;
+}
+.leftAction{
+    width: 50%;
+}
+.rightImage{
+    width: 50%;
+}
+/* deck */
