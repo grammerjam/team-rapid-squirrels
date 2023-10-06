@@ -14,7 +14,6 @@ body{
     align-items: center;
     height: 45px;
     margin: 20px 0;
-   
 }
 .logo{
     background-color: #2ab6d9;
@@ -58,8 +57,8 @@ height: 10px;
   }
 /* call to action */
 .action{
-   
-    margin:20px 0;
+   background-color: #f0f0f0;
+    margin:20px 0 ;
     display: flex;
     padding: 15px;
 }
@@ -70,3 +69,17 @@ height: 10px;
     width: 50%;
 }
 /* deck */
+.deck{
+    background-color: #d8d6d6;
+}
+.cards{
+    display: flex;
+}
+.card{
+    width: 25%;
+}
+/* latest articles */
+.latest{
+    background-color: #f0f0f0;
+ 
+}
