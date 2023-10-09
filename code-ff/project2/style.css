@@ -7,20 +7,26 @@ body{
     margin: 0;
     padding:0;
 }
-h2{
+h1,h2,h3{
+    color: #2d314d;
     margin: 0;
 } 
+p{
+    color: #9597a5;
+    font-weight: 500;
+}
  section{
-    padding: 75px 45px;
+    padding: 100px 45px;
  }
 /* navigation */
 .navBar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 45px;
+    height: 50px;
     margin: 20px 0 0 0;
     z-index: 3;
+    padding: 10px;
 }
 .logo{
     background-color: #2ab6d9;
@@ -73,9 +79,7 @@ height: 10px;
     width: 50%;
     padding: 45px 0 0 45px;
 }
-.phoneImg{
 
-}
 .greenShape{
  width: 25%;
  height:25%;   
@@ -100,11 +104,33 @@ height: 10px;
     width: 25%;
   margin: 5px;
 }
-.card2{
-    background-color: #ffffff;
-}
+
 /* latest articles */
 .latest{
     background-color: #f0f0f0;
  
+}
+.card2{
+    background-color: #ffffff;
+    height: 40rem;
+    margin-top: 50px;
+}
+.cardImage{
+    width: 100%;
+    height: 30%;
+}
+.cardTxt{
+    padding: 30px;
+}
+/* footer */
+footer{
+    background-color: #2d314d;
+    margin: 0;
+}
+footer > p {
+    margin: 0;
+}
+.icon{
+    width: 25px;
+    height: 25px;
 }
