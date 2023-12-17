@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'ariel', 'Arial Narrow', Arial, sans-serif;
+    font-family: Helvetica Helvetica,Arial,sans-serif;
     line-height: 2;
 }
 body{
@@ -10,6 +10,7 @@ body{
 h1,h2,h3{
     color: #2d314d;
     margin: 0;
+    padding: 0;
 } 
 p{
     color: #9597a5;
@@ -19,44 +20,53 @@ p{
     padding: 100px 45px;
  }
 /* navigation */
-.navBar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
 
-}
 .logo{
-    background-color: #2ab6d9;
+    
+position: relative;
+left: 7%;
 width: 10px;
 height: 10px;
 }
 
+.navBarContainer{
+text-align: center;
+padding: 1rem;
+}
+
 .navLinks{
-    display: flex;
-    justify-content: space-between;
+       margin: 0;
+    padding: 0;
+    vertical-align: middle;
+   text-align: right;
+    display: inline-block;
     color: #9597a5;
-    margin: 0;
+
 }
 
 .navItem{
-    list-style: none;
-    text-decoration: none;
-    margin: 0 15px;
-    display: block;
+    
+    display: inline-block;
+   font-size: 1rem;
 }
-.navItem:hover{
-    border-bottom: 5px solid #33d35e;
-}
+
 .navItem>a{
     text-decoration: none;
     color: #2d314d ;
-    opacity: .5;
+    opacity: .1;
+    padding: 10px;
+    background: 
+      linear-gradient( #33d35e 0 0)
+      bottom /var(--d, 0) 3px 
+      no-repeat;
+  transition:0.5s;
 }
 .navItem>a:hover{
     opacity: 1;
+     --d: 100%;
 }
 .btn {
+    display: inline-block;
     background: #33d35e;
     background-image: linear-gradient( #33d35e, #2ab6d9);
     border-radius: 28px;
@@ -71,8 +81,12 @@ height: 10px;
   .btn:hover {
     text-decoration: none;
     opacity: 1;
+   
   }
-
+.toTheRight{
+    position: absolute;
+ left: 80%;
+}
 /* call to action */
 .action{
     position: relative;
