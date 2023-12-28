@@ -16,10 +16,16 @@ p{
     color: #9597a5;
     font-weight: 500;
 }
- section{
-    padding: 100px 45px;
- }
+
+
 /* navigation */
+.navBarContainer{
+    position: relative;
+text-align: center;
+padding: 1.5rem;
+background-color: #fff;
+z-index: 3;
+}
 
 .logo{
     
@@ -29,10 +35,7 @@ width: 10px;
 height: 10px;
 }
 
-.navBarContainer{
-text-align: center;
-padding: 1rem;
-}
+
 
 .navLinks{
        margin: 0;
@@ -53,7 +56,7 @@ padding: 1rem;
 .navItem>a{
     text-decoration: none;
     color: #2d314d ;
-    opacity: .1;
+    opacity: .4;
     padding: 10px;
     background: 
       linear-gradient( #33d35e 0 0)
@@ -84,57 +87,61 @@ padding: 1rem;
    
   }
 .toTheRight{
-    position: absolute;
+ position: absolute;
  left: 80%;
 }
+
 /* call to action */
+
 .action{
-    position: relative;
+    display: flex;
    background-color: #f0f0f0;
-    padding: 15px;
     z-index: 1;
     overflow: hidden;
-    
+    width:100% ;
+    justify-content: space-around;
+    position: relative;
+  
 }
 .leftAction{
-   
-    padding: 0;
+    align-self: center;
+    text-align: left;
+    width: 25%;
+    padding: 2rem;
+    
 }
-.phoneImg{
-    position: relative;
-   margin: auto auto;
-}
+
 .greenShape{
-    overflow: hidden;
-    position: absolute;
- width: 75rem;
- height: 50rem;   
- z-index:2 ;
- left: 65rem;
- top: -20rem;
+ position: absolute;
+ top: -30%;
+ left: 60%;
+ z-index: -1;
+ overflow: hidden;
 }
 .blueShape{
-    overflow: hidden;
     position: absolute;
-    width: 75rem;
-    height: 50rem;
-   z-index:2 ;
-   top:-1rem ;
-   right: -5rem;
+top: -4%;
+left: 50%;
+z-index: -2;
+overflow: hidden;
 }
-.rightImage{ 
-      position: relative;
-    width: 31rem;
-    height: 62rem;
-    z-index:5 ;
-left: 50rem;
+.phoneImg{
+    
+   z-index: 2;
+position: relative;
+}
 
-}
 /* deck */
+
 .deck{
     background-color: #d8d6d6;
     position: relative;
-    z-index: 4;
+    z-index: 1;
+    padding: 5rem 9rem;
+    
+}
+.deckSum{
+    padding: 3rem 0;
 }
 .cards{
     display: flex;
@@ -147,16 +154,18 @@ left: 50rem;
 /* latest articles */
 .latest{
     background-color: #f0f0f0;
- 
+ position: relative;
+z-index: 1;
+padding: 6rem 9rem;
+
 }
 .card2{
     background-color: #ffffff;
-    height: 40rem;
-    margin-top: 50px;
+  
 }
 .cardImage{
     width: 100%;
-    height: 30%;
+    height: 15rem;
 }
 .cardTxt{
     padding: 30px;
@@ -165,9 +174,10 @@ left: 50rem;
 footer{
     background-color: #2d314d;
     margin: 0;
-    padding-top: 100px ;
+    padding: 2rem 0 0 1rem;
     display: flex;
     justify-content: space-around;
+    
 }
 footer > p {
     margin: 0;
