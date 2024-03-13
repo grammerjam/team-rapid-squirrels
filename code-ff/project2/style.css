@@ -1,7 +1,7 @@
 
 *{
-    font-family: Helvetica Helvetica,Arial,sans-serif;
-    line-height: 2;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
     
 }
 body{
@@ -12,17 +12,19 @@ h1,h2,h3{
     color: #2d314d;
     margin: 0;
     padding: 0;
+    font-size: xx-large
 } 
 p{
     color: #9597a5;
     font-weight: 500;
+    font-size: x-large;
 } 
 
 /* navigation */
 .navBarContainer{
     position: relative;
 text-align: center;
-padding: 1.5rem;
+padding: 2rem;
 background-color: #fff;
 z-index: 3;
 }
@@ -76,7 +78,7 @@ height: 10px;
     border-radius: 28px;
     color: #ffffff;
     font-size: 20px;
-    padding: 3px 20px;
+    padding: 10px 35px;
     text-decoration: none;
     opacity: .5;
     border: 0;
@@ -112,6 +114,10 @@ height: 10px;
     z-index: 1;
 }
 
+.actionHeader{
+    font-size: xxx-large;
+    line-height: normal;
+}
 .greenShape{
  position: absolute;
  top: -30%;
